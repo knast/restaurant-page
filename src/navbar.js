@@ -22,13 +22,13 @@ export default function displayNavbar() {
 
     }
 
-    logo.textContent = 'BURDEL NA MORENCE';
+    logo.textContent = 'POMYJE W RYJE';
     header.appendChild(logo);
     header.appendChild(navigation);
     
     body.appendChild(header);
     
-    console.log('jebac biede');
+    
 
 
 } 

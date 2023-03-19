@@ -5,7 +5,9 @@
     padding: 0;
 }
 
-
+body {
+    background:linear-gradient(45deg, #cffafe, #a5f3fc);
+}
 
 
 header {
@@ -17,10 +19,7 @@ header {
     background-color:#06b6d4;
     color:black;
     
-    margin: 0 auto;
-    width:98vw;
-    margin-top:10px;
-    border-radius:8px;
+    
     
 }
 
@@ -58,4 +57,17 @@ nav button {
 nav button:hover {
     background-color:#67e8f9;
     
+}
+
+.content {
+    width:50%;
+    margin:0 auto;
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-size:30px;
+    margin-top:40px;
+}
+
+h1 {
+    font-family:'Roboto', sans-serif;
 }
