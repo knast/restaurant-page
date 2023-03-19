@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Allerta+Stencil&family=Chakra+Petch:wght@500&family=Kanit:wght@200&family=Manrope&family=Roboto:wght@300&family=Syncopate:wght@700&family=Tilt+Neon&family=Unbounded:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:9vh;
+    background-color:#06b6d4;
+    color:black;
+    
+    margin: 0 auto;
+    width:98vw;
+    margin-top:10px;
+    border-radius:8px;
+    
+}
+
+nav ul {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style-type: none;
+    font-family:'Syncopate', sans-serif;
+    font-size:20px;
+    
+}
+
+nav ul li {
+    margin-right:10px;
+}
+
+a {
+    font-family:'Syncopate', sans-serif;
+    font-size:30px;
+}
+
+nav button {
+    width:120px;
+    height:40px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+    background-color:inherit;
+    border: 1px solid #21DEFF;
+    border-radius:8px;
+    color:#44403c;
+
+}
+
+nav button:hover {
+    background-color:#67e8f9;
+    
+}
