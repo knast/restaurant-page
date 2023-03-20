@@ -1,7 +1,12 @@
+
 export default function displayMenu() {
 
     const body = document.querySelector('body');
-    
+    const content = document.querySelector('.content');
+
+    if(content) {
+       body.removeChild(content); 
+    }
 
     const contentContainer = document.createElement('div');
     const menuContainer = document.createElement('div');
@@ -18,27 +23,27 @@ export default function displayMenu() {
     const dishes = [];
 
     const dishOne = new Image(imageWidth, imageHeight);
-    dishOne.src = 'dish1.jpg';
+    dishOne.src = '../src/images/dish1.jpg';
     dishes.push(dishOne);
 
     const dishTwo = new Image(imageWidth, imageHeight);
-    dishTwo.src = 'dish2.jpg';
+    dishTwo.src = '../src/images/dish2.jpg';
     dishes.push(dishTwo);
 
     const dishThree = new Image(imageWidth, imageHeight);
-    dishThree.src = 'dish3.jpg';
+    dishThree.src = '../src/images/dish3.jpg';
     dishes.push(dishThree);
 
     const dishFour = new Image(imageWidth, imageHeight);
-    dishFour.src = 'dish4.jpg';
+    dishFour.src = '../src/images/dish4.jpg';
     dishes.push(dishFour);
 
     const dishFive = new Image(imageWidth, imageHeight);
-    dishFive.src = 'dish5.jpg';
+    dishFive.src = '../src/images/dish5.jpg';
     dishes.push(dishFive);
 
     const dishSix = new Image(imageWidth, imageHeight);
-    dishSix.src = 'dish6.jpg';
+    dishSix.src = '../src/images/dish6.jpg';
     dishes.push(dishSix);
 
     dishes.forEach((dish) => {
@@ -52,6 +57,9 @@ export default function displayMenu() {
         menuContainer.appendChild(dishCard);
 
     })
+
+    contentContainer.appendChild(menuContainer);
+    body.appendChild(contentContainer);
 
 
 

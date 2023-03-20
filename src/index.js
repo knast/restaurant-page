@@ -10,9 +10,14 @@ import displayMenu from './menu.js';
     const about = document.querySelector('.About');
     const menu = document.querySelector('.Menu');
     const contact = document.querySelector('.Contact');
+    const menuContainer = document.querySelector('.menu-container');
+
+
 
     menu.addEventListener('click', function() {
-        displayMenu();
+        if(!menuContainer) {
+            displayMenu();
+        }
     });
    
 
