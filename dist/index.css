@@ -5,8 +5,9 @@
     padding: 0;
 }
 
+
 body {
-    background:linear-gradient(45deg, #cffafe, #a5f3fc);
+    background:linear-gradient(0.25turn, #cffafe, #a5f3fc);
 }
 
 
@@ -70,4 +71,23 @@ nav button:hover {
 
 h1 {
     font-family:'Roboto', sans-serif;
+}
+
+.content article {
+    margin-top: 30px;
+}
+
+.content {
+
+    box-shadow: 1px 1px 1px 1px #bae6fd;
+    border-radius:8px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+.motto {
+    margin-top: 30px;
 }
