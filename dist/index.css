@@ -97,8 +97,26 @@ h1 {
     display:grid;
     grid-template-columns:repeat(2, 1fr);
     grid-template-rows:repeat(3, 1fr);
+    width:50%;
+    margin:100px auto;
+    gap:15px;
 }
 
 .card {
     display:flex;
+}
+
+.image {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.dish-description {
+    font-family:'Kanit', sans-serif;
+    font-size:15px;
+    text-align:center;
+    padding-top:30px;
+    font-weight:bold;
 }

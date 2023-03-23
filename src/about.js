@@ -1,8 +1,22 @@
+import contentMenu from './menu.js'
+
 export default function displayAbout() {
 
+
     const body = document.querySelector('body');
+    const content = document.querySelector('.content');
+    const contentMenu = document.querySelector('.menu-content');
+    
+    
+    
+    
     const contentContainer = document.createElement('div');
     contentContainer.classList.add('content');
+    
+
+    
+    
+
     
     const title = document.createElement('h1');
     const motto = document.createElement('h1');
