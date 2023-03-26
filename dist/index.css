@@ -120,3 +120,49 @@ h1 {
     padding-top:30px;
     font-weight:bold;
 }
+
+.contact-content {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    width:50%;
+}
+
+.contact-info {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.contact-info p:nth-child(2), p:nth-child(3) {
+    margin-top:20px;
+}
+
+
+
+.contact-content {
+    width:50%;
+    margin:100px auto;
+}
+
+.info-card {
+    display:flex;
+}
+
+.info-container {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(2, 1fr);
+    gap:25px;
+
+}
+
+
+.info-section {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin-left:25px;
+    font-family:'Roboto', sans-serif;
+}
+

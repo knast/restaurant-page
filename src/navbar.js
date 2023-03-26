@@ -24,7 +24,7 @@ export default function displayNavbar() {
 
     }
 
-    logo.textContent = 'POMYJE W RYJE';
+    logo.textContent = 'RESTAURANT';
     header.appendChild(logo);
     header.appendChild(navigation);
     
