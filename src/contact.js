@@ -40,7 +40,7 @@ export default function displayContact() {
 
     infoCards.forEach(infoCard => {
         const image = new Image(100,100);
-        image.src = './src/images/avatar1.png';
+        image.src = 'src/images/avatar1.png';
         image.classList.add('image');
         infoCard.appendChild(image);
         const infoSection = document.createElement('div');

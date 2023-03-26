@@ -23,32 +23,32 @@ export default function displayMenu() {
     const dishes = [];
 
     const dishOne = new Image(imageWidth, imageHeight);
-    dishOne.src = './src/images/dish1.jpg';
+    dishOne.src = 'src/images/dish1.jpg';
     dishOne.classList.add('image');
     dishes.push(dishOne);
 
     const dishTwo = new Image(imageWidth, imageHeight);
-    dishTwo.src = './src/images/dish2.jpg';
+    dishTwo.src = 'src/images/dish2.jpg';
     dishTwo.classList.add('image');
     dishes.push(dishTwo);
 
     const dishThree = new Image(imageWidth, imageHeight);
-    dishThree.src = './src/images/dish3.jpg';
+    dishThree.src = 'src/images/dish3.jpg';
     dishThree.classList.add('image');
     dishes.push(dishThree);
 
     const dishFour = new Image(imageWidth, imageHeight);
-    dishFour.src = './src/images/dish4.jpg';
+    dishFour.src = 'src/images/dish4.jpg';
     dishFour.classList.add('image');
     dishes.push(dishFour);
 
     const dishFive = new Image(imageWidth, imageHeight);
-    dishFive.src = './src/images/dish5.jpg';
+    dishFive.src = 'src/images/dish5.jpg';
     dishFive.classList.add('image');
     dishes.push(dishFive);
 
     const dishSix = new Image(imageWidth, imageHeight);
-    dishSix.src = './src/images/dish6.jpg';
+    dishSix.src = 'src/images/dish6.jpg';
     dishSix.classList.add('image');
     dishes.push(dishSix);
 
