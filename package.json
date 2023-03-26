@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode=development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,8 +18,9 @@
   "bugs": {
     "url": "https://github.com/knast/restaurant-page/issues"
   },
-  "homepage": "https://github.com/knast/restaurant-page#readme",
+  "homepage": "https://github.com/knast/restaurant-page/dist/index.html",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1"
   }
