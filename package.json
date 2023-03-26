@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/knast/restaurant-page/issues"
   },
-  "homepage": "https://github.com/knast/restaurant-page/dist/index.html",
+  "homepage": "https://github.com/knast/restaurant-page#readme",
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "webpack": "^5.76.2",
