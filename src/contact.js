@@ -70,7 +70,7 @@ export default function displayContact() {
     const firstContactInfos = infos.splice(0,3);
     const secondContactInfos = infos.splice(0,3);
 
-    console.log(firstContactInfos, secondContactInfos);
+    
 
 
     firstContactInfos[0].textContent = firstContact['fullName'];

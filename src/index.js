@@ -45,16 +45,16 @@ import displayContact from './contact.js';
             state.menu = true;
             state.contact = false;
         }
-        console.log(aboutContent);
+        
     });
 
     about.addEventListener('click', function() {
-        console.log(menuContent);
+        
         if(state.about === false) {
-            
+            const body = document.querySelector('body');
             const aboutContent = document.querySelector('.content');
             const menuContent = document.querySelector('.content-menu');
-            const contactContent = document.querySelector('.content-contact');
+            const contactContent = document.querySelector('.contact-content');
             if(state.menu === true) { 
                 body.removeChild(menuContent);
             } else if(state.contact === true) {
