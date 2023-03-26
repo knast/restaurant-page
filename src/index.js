@@ -55,11 +55,11 @@ import displayContact from './contact.js';
             const aboutContent = document.querySelector('.content');
             const menuContent = document.querySelector('.content-menu');
             const contactContent = document.querySelector('.content-contact');
-        if(state.menu === true) { 
-            body.removeChild(menuContent);
-        } else if(state.contact === true) {
-            body.removeChild(contactContent);
-        }
+            if(state.menu === true) { 
+                body.removeChild(menuContent);
+            } else if(state.contact === true) {
+                body.removeChild(contactContent);
+            }
             
             
             displayAbout();
